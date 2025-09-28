@@ -13,4 +13,6 @@ This repository documents my learning and progress as I build Android apps using
 - Kotlin
 - Android Studio
 
-<!-- This README will be updated as I add more projects and learn new concepts. Stay tuned! -->
+---
+
+### This README will be updated as I add more projects and learn new concepts. Stay tuned!
