@@ -8,8 +8,10 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.Text
@@ -57,9 +59,11 @@ fun MyAlignments() {
             fontStyle = FontStyle.Italic,
             textAlign = TextAlign.Center,
             modifier = Modifier
-                .background(Color.Red)
-                .width(100.dp)
+                .background(Color.Red).padding(start = 20.dp, end = 30.dp)
         )
+
+        Spacer(modifier = Modifier.size(20.dp))
+
         Text(
             text = "Android",
             color = Color.White,
@@ -71,6 +75,9 @@ fun MyAlignments() {
                 .background(Color.Red)
                 .width(100.dp)
         )
+
+        Spacer(modifier = Modifier.size(20.dp))
+
         Text(
             text = "Kotlin",
             color = Color.White,
